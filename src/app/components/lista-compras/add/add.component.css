@@ -1,0 +1,31 @@
+.espacamento{
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+.alinhamento{
+  margin-left: 30vw;
+}
+h1{
+  padding:30px;
+    color: #FFC107;
+  }
+.btn{
+  text-align: right;
+  color: black;
+  margin:15px;
+}
+input{
+  margin:15px;
+}
+
+.bloco2{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+width: 70%;
+
+}
+.compras{
+  margin-bottom: 5vh;
+}

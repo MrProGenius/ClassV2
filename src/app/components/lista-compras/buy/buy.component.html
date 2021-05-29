@@ -1,0 +1,11 @@
+<div class="espacamento alinhamento">
+  <div class ="bloco">
+  <div *ngFor="let item of listaService.listaCompras">
+    <div class="formatacao">
+    <p [ngClass]="{'comprar' : item.carrinho}">{{item.nome}}</p>
+    <p [ngClass]="{'comprar' : item.carrinho}">{{item.preco}}</p>
+    </div>
+      <button class="btn btn-warning" (click)="Comprar(item)">Comprar</button>
+    </div>
+  </div>
+  </div>

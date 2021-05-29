@@ -1,0 +1,16 @@
+.espacamento{
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+.alinhamento{
+  margin-left: 30vw;
+}
+h1{
+padding:30px;
+  color: #FFC107;
+}
+h4{
+  padding-top:  30px;
+  color: #FFC107;
+  font-weight: bold;
+}

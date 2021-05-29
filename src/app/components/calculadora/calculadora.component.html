@@ -1,0 +1,11 @@
+<div class="espacamento alinhamento">
+  <h1>Exercício da Calculadora</h1>
+<!--<input placeholder="num 1" [value]='valor1' (input)="updateVal($event)" >-->
+<input placeholder="num 1" [(ngModel)]="valor1"
+(input)="calcula()">
+<input placeholder="sinal" [(ngModel)]="sinal"
+(input)="calcula()">
+<input placeholder="num 2"  [(ngModel)]="valor2"
+(input)="calcula()">
+<h4>resultado: {{resultado}}</h4>
+</div>

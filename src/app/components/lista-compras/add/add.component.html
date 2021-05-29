@@ -1,0 +1,15 @@
+<div class="espacamento alinhamento">
+  <h1>Lista de Compras</h1>
+  <div class ="bloco">
+    <div class="bloco2">
+    <div>Artigo:</div>
+    <div>Preço:</div>
+  </div>
+<button  class="btn btn-warning" (click)="AdicionarLista(nome.value, preco.value)">Adicionar</button>
+<input type="text" placeholder="Produto"  #nome>
+<input type="text" value="€" placeholder="€" #preco>
+<div class="compras" *ngFor="let artigo of listaService.listaCompras">
+  <p [ngClass]="{'comprados' : artigo.carrinho}">{{artigo.nome}} {{artigo.preco}}</p>
+</div>
+</div>
+</div>

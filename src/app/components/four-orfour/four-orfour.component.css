@@ -1,0 +1,17 @@
+.espacamento{
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+.alinhamento{
+  margin-left: 30vw;
+}
+h1{
+padding:30px;
+  color: #FFC107;
+}
+.links{
+  color: #FFC107;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}

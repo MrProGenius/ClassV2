@@ -1,0 +1,25 @@
+.espacamento{
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+.alinhamento{
+  margin-left: 30vw;
+}
+h1{
+padding:30px;
+  color: #FFC107;
+}
+.bloco{
+  padding-top: 50px;
+}
+.girar {
+  animation: rotate 15s ease-in-out 0s;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.btn{
+  margin-left: 12px;
+}

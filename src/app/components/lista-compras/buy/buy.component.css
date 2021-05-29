@@ -1,0 +1,16 @@
+.espacamento{
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+.alinhamento{
+  margin-left: 30vw;
+}
+.btn{
+  text-align: right;
+  padding-top: 12px;
+  color: black;
+}
+.comprar{
+  text-decoration: line-through;
+  color: red;
+}

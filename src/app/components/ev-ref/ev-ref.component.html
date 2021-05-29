@@ -1,0 +1,11 @@
+<div class="espacamento alinhamento">
+  <h1>Exercício Ev and Ref </h1>
+  <div class ="bloco">
+  <input type="text" [style.background]="cor" (mouseenter)='changecolor("#FFC107")' (focus)='changecolor("red")' (blur)='changecolor("grey")'
+  (input)='changecolor("green")' (copy)='changecolor("#6666CC")' #ref>
+
+  <button class="btn btn-warning" (click)='Aumentar(ref)'>Aumentar</button>
+  <button class="btn btn-warning" (click)='Diminuir(ref)'>Diminuir</button>
+  <button class="btn btn-warning" (click)='rodar(ref)'>Rodar</button>
+  </div>
+</div>
