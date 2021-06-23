@@ -1,0 +1,28 @@
+.espacamento{
+  margin-top: 5vh;
+  margin-left: 2vw;
+
+}
+.alinhamento{
+  margin-left: 30vw;
+}
+h4{
+padding:30px;
+color: #FFC107;
+}
+ p{
+font-size: 20px;
+}
+.bloco{
+margin-left: 1vw;
+}
+.btn{
+  margin-left: 15px;
+  background-color: #FFC107;
+  margin-right: 15px;
+  }
+.PiadaPesquisa{
+  font-size: 14px;
+  color: white;
+margin-top: 10px;
+}

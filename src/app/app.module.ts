@@ -15,6 +15,10 @@ import { FourOrfourComponent } from './components/four-orfour/four-orfour.compon
 import { ListaComprasComponent } from './components/lista-compras/lista-compras.component';
 import { AddComponent } from './components/lista-compras/add/add.component';
 import { BuyComponent } from './components/lista-compras/buy/buy.component';
+import { RegistoComponent } from './components/registo/registo.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ChuckComponent } from './components/chuck/chuck.component';
+import { ScolorComponent } from './components/Pcolor/scolor/scolor.component';
 
 
 
@@ -32,11 +36,15 @@ import { BuyComponent } from './components/lista-compras/buy/buy.component';
     ListaComprasComponent,
     AddComponent,
     BuyComponent,
+    RegistoComponent,
+    ChuckComponent,
+    ScolorComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
